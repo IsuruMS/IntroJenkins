@@ -11,7 +11,7 @@ pipeline{
         }
         stage('Test'){
             steps{
-                sh 'echo "Running the program...'
+                sh 'echo "Running the program..."'
                 sh 'chmod +x scripts/Linux-Run.sh'
                 sh 'scripts/Linux-Run.sh'
             }
